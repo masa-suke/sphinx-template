@@ -1,0 +1,16 @@
+@startuml
+
+class MyClass1 {
+    + __init__(self, arg1:int, arg2:int):
+    + my_method(self, arg1:int, arg2:int) -> float:
+}
+
+class MyClass2 {
+    + __init__(self, arg1:int, arg2:int):
+    + my_method(self, arg1:int, arg2:int) -> float:
+}
+
+myapp --> MyClass1
+myapp --> MyClass2
+
+@enduml

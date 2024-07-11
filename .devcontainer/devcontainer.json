@@ -1,0 +1,32 @@
+{
+    "name": "sphinx-template",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "workspace",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "lfs.vscode-emacs-friendly",
+                "kevinrose.vsc-python-indent",
+                "bierner.markdown-preview-github-styles",
+                "trond-snekvik.simple-rst",
+                "github.copilot",
+                "mhutchie.git-graph",
+                "bierner.markdown-mermaid",
+                "jebbs.plantuml"
+            ],
+            "settings": {
+                "workbench.colorCustomizations": {
+                    "titleBar.activeBackground": "#037FBA",
+                    "titleBar.activeForeground": "#ffffff",
+                    "activityBar.background": "#037FBA",
+                    "activityBar.foreground": "#ffffff"
+                },
+                "jupyter.notebookFileRoot": "${workspaceFolder}",
+                "jupyter.interactiveWindow.creationMode": "perFile"
+            }
+        }
+    }
+}

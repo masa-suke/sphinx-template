@@ -1,0 +1,27 @@
+@startuml
+
+hide footbox
+
+actor myapp
+participant "myobj1:MyClass1"
+participant "myobj2:MyClass2"
+
+create "myobj1:MyClass1"
+myapp -> "myobj1:MyClass1": ＿init＿(calib_info)
+myapp -> "myobj1:MyClass1": my_method(arg1, arg2)
+activate "myobj1:MyClass1"
+deactivate "myobj1:MyClass1"
+|||
+
+create "myobj2:MyClass2"
+myapp -> "myobj2:MyClass2": ＿init＿(calib_info)
+myapp -> "myobj2:MyClass2": my_method(arg1, arg2)
+activate "myobj2:MyClass2"
+deactivate "myobj2:MyClass2"
+|||
+
+myapp -> myapp: app_func(arg1, arg2)
+activate myapp
+deactivate myapp
+
+@enduml
