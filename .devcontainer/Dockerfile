@@ -11,7 +11,7 @@ RUN apt-get update && \
     pip install --upgrade pip
 
 # Install PlantUML
-RUN apt install openjdk-17-jdk && \
+RUN apt-get -y install openjdk-17-jdk && \
     apt-get -y install graphviz && \
     apt-get -y install plantuml
 
