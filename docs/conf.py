@@ -13,9 +13,10 @@ author = 'Aidemy Inc.'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-from pathlib import Path
-import sys
-sys.path.insert(0, str(Path("../")))
+# sphinx-apidoc コマンドで XXX.rstを生成する場合のみ必要
+# from pathlib import Path
+# import sys
+# sys.path.insert(0, str(Path("../")))
 
 extensions = [
     "sphinx.ext.autodoc",     # ソースコード読み込み

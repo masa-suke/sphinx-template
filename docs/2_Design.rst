@@ -7,8 +7,9 @@ Design
 
 主要なモジュール/クラス
 ----------------------------------
-- lib/myclass1.py : xxx
-- lib/myclass2.py : yyy
+- myapp : xxx
+- lib/myclass1.py : yyy
+- lib/myclass2.py : zzz
 
 クラス図
 ----------------------------------
@@ -16,11 +17,11 @@ Design
 
 動作
 ==================================
-xxx
+動作のざっくり説明
 
 シーケンス図
 --------------------------------
 
 .. uml:: diagrams/sequence.pu
 
-動作のざっくり説明
+
