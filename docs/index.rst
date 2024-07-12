@@ -1,9 +1,9 @@
-.. MazdaE&T Analog Meter Reader documentation master file, created by
+.. PROJECT_NAME documentation master file, created by
    sphinx-quickstart on Thu Jun  6 23:33:25 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-MazdaE&T Analog Meter Reader's documents
+PROJECT_NAME's documents
 ========================================================
 
 .. toctree::

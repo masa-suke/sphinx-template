@@ -1,10 +1,7 @@
 lib package
 ================================
 
-Submodules
-----------
-
-lib.myclass2
+lib.myclass1
 --------------------------------
 
 .. automodule:: lib.myclass1
@@ -12,7 +9,7 @@ lib.myclass2
    :undoc-members:
    :show-inheritance:
 
-lib.myclass2 module
+lib.myclass2
 --------------------------------
 
 .. automodule:: lib.myclass2
