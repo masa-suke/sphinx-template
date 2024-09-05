@@ -11,9 +11,3 @@ services:
       - ..:/workspace
     command: sleep infinity
     shm_size: 2gb
-    networks:
-      - met-webapp-network
-
-networks:
-  met-webapp-network:
-    external: true
