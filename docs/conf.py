@@ -16,7 +16,7 @@ author = 'Aidemy Inc.'
 # sphinx-apidoc コマンドで XXX.rstを生成する場合のみ必要
 # from pathlib import Path
 # import sys
-# sys.path.insert(0, str(Path("../")))
+# sys.path.insert(0, str(Path("../").resolve()))
 
 extensions = [
     "sphinx.ext.autodoc",     # ソースコード読み込み
