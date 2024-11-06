@@ -26,3 +26,4 @@ RUN pip install ipykernel jupyter pandas
 RUN pip install sphinx sphinx_rtd_theme sphinx-autobuild
 RUN pip install sphinxcontrib-mermaid
 RUN pip install sphinxcontrib-plantuml
+RUN pip install myst_parser

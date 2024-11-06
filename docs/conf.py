@@ -25,6 +25,7 @@ extensions = [
     "sphinx_rtd_theme",       # テーマ
     'sphinxcontrib.mermaid',  # Mermaidダイアグラムを表示する
     'sphinxcontrib.plantuml', # PlantUMLダイアグラムを表示する
+    'myst_parser',            # MyST形式を読み込む
 ]
 
 templates_path = ['_templates']
