@@ -1,0 +1,22 @@
+/* custom.css */
+
+/* メインコンテンツの最大幅を解除 */
+.wy-nav-content {
+    max-width: none;
+    width: 100%;
+}
+
+/* サイドバーとメインコンテンツのレイアウトを調整 */
+.wy-grid-for-nav {
+    grid-template-columns: 1fr;
+}
+
+/* 画面幅が1200px以下の場合に元のレイアウトに戻す */
+@media (max-width: 1200px) {
+    .wy-nav-content {
+        max-width: 1200px;
+    }
+    .wy-grid-for-nav {
+        grid-template-columns: 250px 1fr; /* サイドバーの幅を指定 */
+    }
+}
